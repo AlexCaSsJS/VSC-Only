@@ -1,0 +1,63 @@
+a {
+    color: lightgreen;
+    text-decoration: none;
+}
+a:link {
+    color: springgreen;
+    text-decoration: wavy;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+}
+::selection {
+    background-color: chartreuse;
+}
+::first-line {
+    text-transform: uppercase;
+}
+.magic {
+    display: none;
+    background-color: cyan;
+    position: absolute;
+    /* top: 1em; */
+    border-radius: 5px;
+}
+.dropdown {
+    position: absolute;
+    background-color: cyan;
+    padding: 20px;
+}
+.dropdown:hover .magic {
+    display: block;
+}
+.trans {
+    background-color: darkorchid;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    transform: rotate(30deg) scale(2,2); 
+    transition: 1s;
+}
+.trans:hover {
+    background-color: darkred;
+}
+.trans2 {
+    background-color: brown;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 30px;
+    transform: rotate(-30deg);
+    transform-origin: top left;
+    transition: transform 2s;
+    transition-delay: 1s;
+    transform: rotate(360deg);
+}
