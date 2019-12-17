@@ -23,4 +23,3 @@ for(var i = 0; i < fruits.length; i++) {
     }
 }
 document.write("Cele mai mari fructe sunt " + max);
-
