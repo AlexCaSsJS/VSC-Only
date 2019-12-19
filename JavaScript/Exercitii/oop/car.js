@@ -1,7 +1,7 @@
 var car = {
-    make: "Bmw",
-    model : "x6",
-    year: "2016",
+    make: "Ford",
+    model : "Mustang",
+    year: "2018",
     color: "black",
     passagers: "4",
     mileage: "1021",
@@ -32,7 +32,7 @@ var car = {
     },
     stop: function() {
         if(this.engineIsOn) {
-        this.engineIsOn = false;
+            this.engineIsOn = false;
         console.log("Car stopped");
         } else {
             console.log("Car is already stopped");
@@ -40,7 +40,7 @@ var car = {
     },
     start: function() {
         if(!this.engineIsOn) {
-        this.engineIsOn = true;
+            this.engineIsOn = true;
         console.log("Car started");
         } else {
             console.log("Car is already started");
