@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: monospace;
+}
+#drawing {
+    position: relative;
+    background-color: #ddd;
+    height: 20em;
+    width: 20em;
+}
+#drawing div {
+    position: absolute;
+    background-color: black;
+}
+#base {
+    width: 16em;
+    height: 0.5em;
+    bottom: 0;
+    left: 2em;
+}
+#pillar {
+    width: 0.5em;
+    height: 20em;
+    top: 0;
+    left: 8em;
+}
+#suport {
+    width: 6em;
+    height: 0.5em;
+    top: 0;
+    left: 8em;
+}
+#rope {
+    width: 0.3em;
+    height: 5em;
+    top: 0;
+    left: 14em;
+}
+#head {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    top: 5em;
+    left: 12.5em;
+}
+#body {
+    width: 1em;
+    height: 5em;
+    top: 8em;
+    left: 13.5em;
+    border-radius: 30%;
+}
+#left_arm {
+    transform: rotate(30deg);
+    width: 0.5em;
+    height: 2em;
+    top: 9em;
+    left: 13em;
+    border-radius: 30%;
+}
+#right_arm {
+    transform: rotate(-30deg);
+    width: 0.5em;
+    height: 2em;
+    top: 9em;
+    left: 14.5em;
+    border-radius: 30%;
+}
+#left_leg {
+    transform: rotate(30deg);
+    width: 0.5em;
+    height: 3em;
+    top: 12.5em;
+    left: 13em;
+    border-radius: 30%;
+}
+#right_leg {
+    transform: rotate(-30deg);
+    width: 0.5em;
+    height: 3em;
+    top: 12.5em;
+    left: 14.5em;
+    border-radius: 30%;
+}
+.human {
+    visibility: hidden;
+}
