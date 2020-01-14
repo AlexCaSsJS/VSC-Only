@@ -8,7 +8,7 @@ body {
 }
 #drawing {
     position: relative;
-    background-color: #ddd;
+    background-color: rgb(9, 180, 9);
     height: 20em;
     width: 20em;
 }
@@ -88,4 +88,7 @@ body {
 }
 .human {
     visibility: hidden;
+}
+#letters {
+    font-size: 2em;
 }
