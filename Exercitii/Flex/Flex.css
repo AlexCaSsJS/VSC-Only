@@ -1,0 +1,14 @@
+nav {
+    background-color: rgb(15, 75, 75);
+    display: flex;
+    justify-content: space-evenly;
+}
+div:first-child {
+    background-color: rgb(37, 195, 201);
+}
+div:nth-child(2) {
+    background-color: chartreuse;
+}
+div:last-child {
+    background-color: crimson;
+}
