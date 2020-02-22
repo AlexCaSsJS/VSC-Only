@@ -1,0 +1,9 @@
+.row div:first-child {
+    background-color: aqua;
+}
+.row div:nth-child(2) {
+    background-color: blueviolet;
+}
+.row div:last-child {
+    background-color: crimson;
+}
