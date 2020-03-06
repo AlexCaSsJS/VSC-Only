@@ -30,7 +30,7 @@
     width: 100%;
     display: flex;
   }
-  .pads > div {
+  .pads div {
     height: 100px;
     width: 100px;
     flex: 1;
@@ -54,7 +54,7 @@
     background: #60c2d3;
   }
   
-  .visual > div {
+  .visual div {
     position: absolute;
     bottom: 0%;
     height: 50px;
