@@ -4,7 +4,7 @@
     margin: 0px;
 }
 body {
-
+    background-color: rgb(13, 92, 39);
 }
 input[type="button"] {
     background-color: lightseagreen;
