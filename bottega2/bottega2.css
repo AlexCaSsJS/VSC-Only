@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-size: 1.2em;
+}
 .welcome, .portofolio{
     height: 100vh;
     width: 100vw;
@@ -22,7 +25,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
+    transition-duration: 2s;
+    transition-property: left;
 }
 .portofolio {
     z-index: 0;
@@ -42,7 +47,7 @@
 }
 .title {
     margin-top: 1.8em;
-    font-family: Lora;
+    font-family: 'Lora';
     color: snow;
     font-size: 10em;
 }
@@ -58,9 +63,10 @@
     content: '';
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     height: 3px;
     background-color: snow;
+    opacity: 0;
     width: 0;
     transition-property: width;
     transition-duration: 0.5s;
@@ -68,6 +74,7 @@
 }
 .enter:hover::after, .back:hover::after {
     width: 100%;
+    opacity: 1;
 }
 @keyframes bounce {
     from {
@@ -87,4 +94,10 @@
     animation-duration: 0.5s;
     animation-iteration-count: 2;
     animation-direction: alternate;
+}
+.slide-out {
+    left: 100vw;
+}
+.slide-in {
+    left: 0;
 }
