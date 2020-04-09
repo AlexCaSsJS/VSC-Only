@@ -24,34 +24,46 @@ var myFord = new Car("Ford", "Mondeo", 2016, "Black", 210);
 var myNationalCar = new Car("Dacia", "Logan", 2020, "white", 170);
 
 myNationalCar.drive(100);
+myFord.drive(120);
+myFord.drive(100);
+
+console.log(myFord.mileage);
+
+var fordCopy = Object.assign({}, myFord);
+
+console.log(fordCopy);
 
 
-var myCar = {
-    make: "Ford",
-    model: "GT",
-    year: 2020,
-    mileage: 1100.5,
-    maxSpeed: 300,
-    color: "blue",
-    started: false,
-    drive: function(distance) {
-        this.mileage += distance;
-    },
-    start: function() {
-        this.started = true;
-    },
-    stop: function() {
-        this.started = false;
-    }
-}
 
 
-var anotherCar = {
-    make: "Chevy",
-    model: "Bel Air",
-    year: 1960,
-    mileage: 3450,
-    maxSpeed: 160,
-    color: "red",
-    started: true
-}
+
+
+// var myCar = {
+//     make: "Ford",
+//     model: "GT",
+//     year: 2020,
+//     mileage: 1100.5,
+//     maxSpeed: 300,
+//     color: "blue",
+//     started: false,
+//     drive: function(distance) {
+//         this.mileage += distance;
+//     },
+//     start: function() {
+//         this.started = true;
+//     },
+//     stop: function() {
+//         this.started = false;
+//     }
+// }
+
+
+// var anotherCar = {
+//     make: "Chevy",
+//     model: "Bel Air",
+//     year: 1960,
+//     mileage: 3450,
+//     maxSpeed: 160,
+//     color: "red",
+//     started: true
+// }
