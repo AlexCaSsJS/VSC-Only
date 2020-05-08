@@ -1,3 +1,5 @@
+import { Mage } from "./mage";
+
 class Hero {
     constructor(name, life, mana) {
         this.name = name;

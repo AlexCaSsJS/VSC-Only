@@ -1,6 +1,7 @@
 
 import { Hero } from './hero.js';
 
+export default Mage
 class Mage extends Hero {
     firePrimary() {
         this.mana -= 20;
@@ -15,4 +16,3 @@ class Mage extends Hero {
     }
 }
 
-export { Mage }
