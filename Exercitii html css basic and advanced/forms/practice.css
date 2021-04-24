@@ -33,7 +33,7 @@ select {
     border-radius: 15px;
     color: red;
     background-color: seagreen;
-    padding: 0,3em;
+    padding: 0.3em;
     font-size: 1.1em;
 }
 option {
